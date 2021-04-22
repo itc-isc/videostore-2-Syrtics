@@ -1,12 +1,14 @@
+package wsVideoStore;
+
 public class ChildrensMovie extends Movie {
   public ChildrensMovie(String title) {
     super(title);
-      setPriceCode(Movie.CHILDRENS);
+    setPriceCode(Movie.CHILDRENS);
   }
 
   public double determineAmount(int daysRented) {
-    double thisAmount = 1.5;
-    if (daysRented > 3)
+      
+      if (daysRented > 3)
       thisAmount += (daysRented - 3) * 1.5;
 
     return thisAmount;

@@ -17,7 +17,7 @@ public abstract class Movie
 		return title;
 	}
 
-	public void setPriceCode(int code){
+		public void setPriceCode(int code){
 		priceCode = code;
 	}
 

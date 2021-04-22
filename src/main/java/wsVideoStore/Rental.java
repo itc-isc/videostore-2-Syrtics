@@ -1,5 +1,4 @@
 package wsVideoStore;
-
 public class Rental
 {
   private Movie movie;
@@ -13,6 +12,7 @@ public class Rental
   public String getTitle() {
     return movie.getTitle();
   }
+
   public Movie getMovie(){
     return movie;
   }
