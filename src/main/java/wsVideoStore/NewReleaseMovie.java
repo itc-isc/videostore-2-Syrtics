@@ -1,6 +1,7 @@
 public class NewReleaseMovie extends Movie {
   public NewReleaseMovie(String title) {
     super(title);
+    setPriceCode(Movie.NEW_RELEASE);
   }
 
   public double determineAmount(int daysRented) {
