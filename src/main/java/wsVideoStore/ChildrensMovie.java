@@ -7,8 +7,8 @@ public class ChildrensMovie extends Movie {
   }
 
   public double determineAmount(int daysRented) {
-      
-      if (daysRented > 3)
+    double thisAmount = 1.5;
+    if (daysRented > 3)
       thisAmount += (daysRented - 3) * 1.5;
 
     return thisAmount;
